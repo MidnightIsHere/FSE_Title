@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "first_entry":{
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "login:first_entry"
+    }
+}
