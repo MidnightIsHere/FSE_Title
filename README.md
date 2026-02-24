@@ -15,9 +15,9 @@ V1.0.2
 将不会上传，因为合成表运用了外部模组  
 你需要安装Create和Kubejs以解锁完全体  
 
-V1.0.3(制作中)  
+V1.0.3  
 使用Kubejs重构部分合成以防止误操作和降低难度  
 重构的部分将包含在Kubejs文件夹中  
-具体合成:  
-glass_crest 月琉璃  
-glass_crest_core 月琉璃核心
+下载KubeJS.zip获取kubejs自定义物品  
+下载[1.20+]Title_Pack_For_FSE.zip获取主要数据包  
+解压kubejs文件夹并替换(如果你有自定义物品，请选择自主迁移)你的kubejs文件夹加载自定义物品  
