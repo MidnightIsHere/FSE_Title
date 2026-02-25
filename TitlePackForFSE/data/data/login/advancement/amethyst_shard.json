@@ -1,0 +1,32 @@
+{
+    "parent": "login:root",
+    "display": {
+        "icon": {
+            "id": "minecraft:amethyst_shard"
+        },
+        "title": "有一段关于cmyk的故事...",
+        "description": "你手中的紫水晶已经失去与世界的共鸣.....",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "amethyst_shard": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:amethyst_shard"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "recipes": [
+            "other_crafting:colorful_world"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+name: "Pack at Action"
+
+on:
+    push:
+        branches: [main]
+    
+    workflow_dispatch:
+
+jobs:
+    pack:
+        name: "Pack"
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: "Checkout"
+              uses: actions/checkout@v4
+
+            - name: "Upload KubeJS"
+              uses: actions/upload-artifact@v6
+              with:
+                    name: kubejs
+                    path: ./kubejs/
+
+            - name: "Upload TitlePackData"
+              uses: actions/upload-artifact@v6
+              with:
+                    name: titlePackData
+                    path: ./TitlePackForFSE/data/*
+
+
+            # - name: "Upload TitlePackResourcePack"
+            #   uses: actions/upload-artifact@v6
+            #   with:
+            #       name: titlePackResource
+            #       path: ./TitlePackForFSE/resource/*
