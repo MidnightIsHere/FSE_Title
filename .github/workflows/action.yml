@@ -1,0 +1,25 @@
+name: "Pack at Action"
+
+on:
+    push:
+        branches: [main]
+    
+    workflow_dispatch:
+
+jobs:
+    pack:
+        name: "Pack"
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: "Checkout"
+              uses: actions/checkout@v4
+
+            - name: "ZipKubeJS"
+              run: zip -r kubejs.zip ./kubejs
+
+            - name: "ZipTitlePackData"
+              run: zip -r titlePackData.zip ./TitlePackForFSE/data/*
+
+            - name: "ZipTitlePackResourcePack"
+              run: zip -r titlePackResource.zip ./TitlePackForFSE/resource/*
