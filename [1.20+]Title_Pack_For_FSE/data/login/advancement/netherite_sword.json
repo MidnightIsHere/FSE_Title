@@ -1,0 +1,26 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"netherite_sword"
+        },
+        "title":"额滴圣剑!",
+        "description":"在不经意间，你的下界合金剑炸了",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "netherite_sword":{
+            "trigger":"item_durability_changed",
+            "conditions":{
+                "item":{"items":"netherite_sword"},
+                "durability":0
+            }
+        }
+    },
+    "rewards": {
+        "experience": 0
+        }
+    }

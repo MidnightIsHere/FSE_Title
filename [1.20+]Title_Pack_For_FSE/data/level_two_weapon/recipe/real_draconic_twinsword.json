@@ -1,0 +1,33 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:draconic_twinsword"}],
+    "template":[
+    {"item":"kubejs:crest_upgrade_smithing_template"}
+],
+    "addition":[{"item":"kubejs:upgrade_core"}],
+    "result": {
+        "id": "netherite_sword",
+          "components": {
+            "minecraft:custom_name": "{\"text\":\"真龙双剑\",\"color\":\"light_purple\",\"italic\":false}",
+            "minecraft:lore":["{\"text\":\"这把双剑，来自于那个远古的魔法时代\",\"color\":\"light_purple\",\"italic\":false}",
+            "{\"text\":\"你将它握在手中，感受到了来自魔法时代的龙血的力量，经久不衰\",\"color\":\"light_purple\",\"italic\":false}",
+            "{\"text\":\"它的魔力正在缓缓回复，它即将回到巅峰\",\"color\":\"light_purple\",\"italic\":false}"],
+            "minecraft:enchantments": {"minecraft:sharpness":14,"minecraft:looting":5,"unbreaking":4},
+            "minecraft:attribute_modifiers": [{
+                "id": "minecraft:netherite_sword",
+              "type": "generic.attack_speed",
+              "slot": "mainhand",
+              "operation": "add_value",
+              "amount": 2.5
+            },
+            {
+              "id": "minecraft:netherite_sword",
+            "type": "generic.attack_damage",
+            "slot": "mainhand",
+            "operation": "add_multiplied_base",
+            "amount": 8
+          }],
+            "minecraft:custom_data":{"spectrum_by_package":"real_draconic_twinsword"}
+          }
+        }
+      }

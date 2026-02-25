@@ -1,0 +1,25 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"crossbow"
+        },
+        "title":"就是你把鬼子引进来的?!",
+        "description":"你携带I级不祥之兆进入了村庄，不过蛐蛐几个掠夺者而已",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "raid":{
+            "trigger":"voluntary_exile",
+            "conditions":{
+                "player":{"effects":{"raid_omen":{"amplifier":0}}}
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

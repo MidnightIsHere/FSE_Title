@@ -1,0 +1,28 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"create:hose_pulley"
+        },
+        "title":"吸水霸王",
+        "description":"gulp~gulp~gulp~(获得软管滑轮)",
+        "frame":"goal",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "hose_pulley":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"create:hose_pulley",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

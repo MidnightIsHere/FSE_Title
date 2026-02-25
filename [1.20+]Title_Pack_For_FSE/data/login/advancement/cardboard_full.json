@@ -1,0 +1,49 @@
+{
+    "parent": "login:cardboard_suit",
+        "display":{
+        "icon":{
+            "id":"create:cardboard_sword"
+        },
+        "title":"纸板奉献",
+        "description":"你集齐了纸板套装，看起来你很相信它，但是我不确定它是否提供防护",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "cardboard_full":{
+            "trigger":"inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items":
+                    "create:cardboard_helmet",
+                    "count":1
+                },
+                {
+                    "items":
+                    "create:cardboard_chestplate",
+                    "count":1
+                },
+                {
+                    "items":
+                    "create:cardboard_leggings",
+                    "count":1
+                },
+                {
+                    "items":
+                    "create:cardboard_boots",
+                    "count":1
+                },
+                {
+                    "items":
+                    "create:cardboard_sword",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 400
+        }
+    }

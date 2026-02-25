@@ -1,0 +1,10 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"heavy_core"}],
+    "template":[{"item":"flow_armor_trim_smithing_template"}],
+    "addition":[{"item":"shulker_box"}],
+    "result":{
+        "id":"minecraft:mace",
+        "count":1
+    }
+}

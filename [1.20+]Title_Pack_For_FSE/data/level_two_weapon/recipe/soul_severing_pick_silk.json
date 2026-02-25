@@ -1,0 +1,20 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:soul_severing_pick"}],
+    "template":[
+    {"item":"kubejs:forged_upgrade_smithing_template"},
+    {"item":"kubejs:three_in_one_upgrade_smithing_template"}
+],
+    "addition":[{"item":"kubejs:upgrade_core"}],
+    "result": {
+        "id": "netherite_pickaxe",
+          "components": {
+            "minecraft:custom_name": "{\"text\":\"离魂镐-精准\",\"color\":\"light_purple\",\"italic\":false}",
+            "minecraft:lore":["{\"text\":\"这把十字镐，虽然不是来自于那个远古的魔法时代，但是却有那个时代的残存\",\"color\":\"light_purple\",\"italic\":false}",
+            "{\"text\":\"你将它握在手中，感受到了来自魔法时代的力量，经久不衰\",\"color\":\"light_purple\",\"italic\":false}",
+            "{\"text\":\"它将成为精准挖掘利器......\",\"color\":\"light_purple\",\"italic\":false}"],
+            "minecraft:enchantments": {"minecraft:silk_touch":1,"efficiency":10,"unbreaking":5,"mending":2},
+            "minecraft:custom_data":{"spectrum_by_package":"soul_severing_pick_silk"}
+          }
+        }
+      }

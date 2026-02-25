@@ -1,0 +1,25 @@
+{
+    "parent": "custom_wep_adv:night_crest",
+        "display":{
+        "icon":{
+            "id":"kubejs:mirror_core"
+        },
+        "title":"棱镜核心",
+        "description":"棱镜核心，用于合成镜之三叉戟，1.5级武器",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"material:mirror_core"
+            }
+        }
+    },
+    "rewards": {
+        "recipes":["level_one_weapon:mirror_trident"]
+        }
+    }

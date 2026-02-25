@@ -1,0 +1,29 @@
+{
+    "parent":"custom_wep_adv:guide_one",
+        "display":{
+        "icon":{
+            "id":"kubejs:dreamflayer"
+        },
+        "title":"离梦利刃",
+        "description":"制作一把相对简单的离梦利刃强化你自己",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"kubejs:dreamflayer",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "recipes":["level_two_weapon:real_dreamflayer"]
+        }
+    }

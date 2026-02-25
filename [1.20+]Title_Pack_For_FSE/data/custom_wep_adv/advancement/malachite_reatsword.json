@@ -1,0 +1,29 @@
+{
+    "parent":"custom_wep_adv:guide_one",
+        "display":{
+        "icon":{
+            "id":"kubejs:malachite_reatsword"
+        },
+        "title":"孔雀石巨剑",
+        "description":"孔雀石做成的巨剑，虽然没有多少能量，但好在足够锋利",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"kubejs:malachite_reatsword",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "recipes":["level_two_weapon:glass_crest_ultra_greatsword"]
+        }
+    }

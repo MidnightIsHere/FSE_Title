@@ -1,0 +1,26 @@
+{
+    "parent":"custom_wep_adv:guide_one",
+        "display":{
+        "icon":{
+            "id":"crossbow"
+        },
+        "title":"孔雀石弩",
+        "description":"初级的弩，能用，牺牲了部分伤害换取高额拉弓速度",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"level_one_weapon:malachite_crossbow"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "recipes":["level_two_weapon:glass_crest_crossbow"]
+        }
+    }

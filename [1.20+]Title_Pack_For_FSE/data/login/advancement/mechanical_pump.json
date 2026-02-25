@@ -1,0 +1,28 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"create:mechanical_pump"
+        },
+        "title":"泵不住了",
+        "description":"显然此应力网络已经过载......",
+        "frame":"goal",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "mechanical_pump":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"create:mechanical_pump",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

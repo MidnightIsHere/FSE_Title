@@ -1,0 +1,22 @@
+{
+    "parent": "custom_wep_adv:fork_core",
+        "display":{
+        "icon":{
+            "id":"trident"
+        },
+        "title":"瀑流三叉戟",
+        "description":"激荡核心合成，用于快速在水中穿行",
+        "frame":"goal",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"level_one_weapon:fork_trident"
+            }
+        }
+    }
+}

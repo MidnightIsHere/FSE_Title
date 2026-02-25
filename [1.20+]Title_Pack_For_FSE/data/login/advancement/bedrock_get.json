@@ -1,0 +1,28 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"bedrock"
+        },
+        "title":"啊?",
+        "description":"何以为啊\n(翻译:你是如何做到(这个事情)的啊)",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "dragon_heads":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"bedrock",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

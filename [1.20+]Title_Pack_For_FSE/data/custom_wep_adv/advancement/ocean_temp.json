@@ -1,0 +1,22 @@
+{
+    "parent": "custom_wep_adv:upgrade_core",
+        "display":{
+        "icon":{
+            "id":"kubejs:ocean_upgrade_smithing_template"
+        },
+        "title":"海洋锻造升级模板",
+        "description":"升级模板，用于合成3合1锻造模板，或者用于升级武器",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"material:ocean_temp"
+            }
+        }
+    }
+}

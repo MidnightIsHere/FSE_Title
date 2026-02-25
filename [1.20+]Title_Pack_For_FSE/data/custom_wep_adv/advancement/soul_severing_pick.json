@@ -1,0 +1,29 @@
+{
+    "parent":"custom_wep_adv:glass_crest_core",
+        "display":{
+        "icon":{
+            "id":"kubejs:soul_severing_pick"
+        },
+        "title":"离魂镐",
+        "description":"离魂镐相比普通镐更强大，而且还能继续升级",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"kubejs:soul_severing_pick",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "recipes":["level_two_weapon:soul_severing_pick_fort","level_two_weapon:soul_severing_pick_silk"]
+        }
+    }

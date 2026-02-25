@@ -1,0 +1,29 @@
+{
+    "parent":"custom_wep_adv:guide_one",
+        "display":{
+        "icon":{
+            "id":"kubejs:draconic_twinsword"
+        },
+        "title":"龙之双剑",
+        "description":"不知道为什么，你听到这个名字感到很熟悉",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"kubejs:draconic_twinsword",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "recipes":["level_two_weapon:real_draconic_twinsword"]
+        }
+    }

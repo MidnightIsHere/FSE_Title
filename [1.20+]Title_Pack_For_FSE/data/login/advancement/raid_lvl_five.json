@@ -1,0 +1,25 @@
+{
+    "parent": "login:raid_detect",
+        "display":{
+        "icon":{
+            "id":"iron_axe"
+        },
+        "title":"就是你把鬼子引进来的?!!!!!",
+        "description":"你携带V级不祥之兆进入了村庄，什么叫我引发了一场战争?",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "lvl_five_raid":{
+            "trigger":"voluntary_exile",
+            "conditions":{
+                "player":{"effects":{"raid_omen":{"amplifier":4}}}
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1200
+        }
+    }

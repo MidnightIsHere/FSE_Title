@@ -1,0 +1,25 @@
+{
+    "parent": "custom_wep_adv:guide_one",
+        "display":{
+        "icon":{
+            "id":"kubejs:echo_shadow"
+        },
+        "title":"回响影镰",
+        "description":"回响影镰是一把改装过后的锄头，十分好用",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"level_one_weapon:echo_shadow"
+            }
+        }
+    },
+    "rewards": {
+        "recipes":["level_two_weapon:crystal_crest_smithing"]
+        }
+    }

@@ -1,0 +1,29 @@
+{
+    "parent":"custom_wep_adv:guide_one",
+        "display":{
+        "icon":{
+            "id":"kubejs:nightmare"
+        },
+        "title":"梦魇",
+        "description":"不仅是一把工具，而且还是个武器",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"kubejs:nightmare",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "recipes":["level_two_weapon:fade"]
+        }
+    }

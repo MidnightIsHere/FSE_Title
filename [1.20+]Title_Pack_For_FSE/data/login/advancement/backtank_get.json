@@ -1,0 +1,28 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"create:copper_backtank"
+        },
+        "title":"Are u ready kids?",
+        "description":"正如我所说的，这是背罐",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "backtank":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"create:copper_backtank",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

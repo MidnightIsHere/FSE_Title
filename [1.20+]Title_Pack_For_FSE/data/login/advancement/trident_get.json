@@ -1,0 +1,27 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"trident"
+        },
+        "title":"三叉戟.....?",
+        "description":"北京廊坊公安提醒您，谨防情感诈骗，拒绝渣男渣女",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "trident":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"trident"
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 0
+        }
+    }

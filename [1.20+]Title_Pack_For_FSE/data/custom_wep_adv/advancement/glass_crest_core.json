@@ -1,0 +1,29 @@
+{
+    "parent": "custom_wep_adv:guide_one",
+        "display":{
+        "icon":{
+            "id":"kubejs:glass_crest_core"
+        },
+        "title":"月琉璃核心",
+        "description":"这是月琉璃核心，内含魔法能量，可用于强化装备",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"kubejs:glass_crest_core",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "recipes":["level_one_weapon:soul_severing_pick"]
+        }
+    }

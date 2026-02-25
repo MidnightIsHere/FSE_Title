@@ -1,0 +1,28 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"create:goggles"
+        },
+        "title":"耳聪目明",
+        "description":"你现在可以看到应力了",
+        "frame":"goal",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "goggless":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"create:goggles",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 0
+        }
+    }

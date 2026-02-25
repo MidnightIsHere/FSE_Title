@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "B": {
+        "item": "minecraft:book"
+      }
+    },
+    "result": {
+      "id": "minecraft:written_book",
+      "components": {
+        "minecraft:item_name": "\"七彩世界\"",
+        "minecraft:written_book_content": {
+          "title": {
+            "raw": "七彩世界"
+          },
+          "author": "DaFuqsy",
+          "pages": [
+            {
+              "raw":"\"你可以回到那里\\n但是这里已经没有七彩世界了\\n——————————\\n怀念优秀魔法模组:Spectrum\""
+            }
+          ]
+        }
+      }
+    }
+  }
