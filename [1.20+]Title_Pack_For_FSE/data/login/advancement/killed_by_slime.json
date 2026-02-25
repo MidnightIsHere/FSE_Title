@@ -1,0 +1,25 @@
+{
+    "parent": "login:kill_or_bekill",
+        "display":{
+        "icon":{
+            "id":"slime_ball"
+        },
+        "title":"这么弱:-P",
+        "description":"我们认为收集您与史莱姆对战的数据是有助于我们分析您的智力的!",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "slime":{
+            "trigger":"entity_killed_player",
+            "conditions":{
+                "entity":{"type":["slime"]}
+            }
+        }
+    },
+    "rewards": {
+        "experience": 0
+        }
+    }

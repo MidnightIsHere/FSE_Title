@@ -1,0 +1,34 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:dreamflayer"}],
+    "template":[
+    {"item":"kubejs:forged_upgrade_smithing_template"},
+    {"item":"kubejs:three_in_one_upgrade_smithing_template"}
+],
+    "addition":[{"item":"kubejs:upgrade_core"}],
+    "result": {
+        "id": "netherite_sword",
+        "components": {
+          "minecraft:custom_name": "{\"text\":\"真·离梦利刃\",\"color\":\"red\",\"italic\":false}",
+          "minecraft:lore":["{\"text\":\"这把剑来自于那个远古的魔法时代\",\"color\":\"red\",\"italic\":false}",
+          "{\"text\":\"它与世界的连结重新被开启，重铸赋予它生机\",\"color\":\"red\",\"italic\":false}",
+          "{\"text\":\"即使那个世界的召唤不会到来，它的墨水也重新开始流动\",\"color\":\"red\",\"italic\":false}"],
+          "minecraft:enchantments": {"minecraft:sharpness":20,"minecraft:unbreaking":10},
+          "minecraft:attribute_modifiers": [{
+              "id": "minecraft:netherite_sword",
+            "type": "generic.attack_speed",
+            "slot": "mainhand",
+            "operation": "add_value",
+            "amount": -0.5
+          },
+          {
+            "id": "minecraft:netherite_sword",
+          "type": "generic.attack_damage",
+          "slot": "mainhand",
+          "operation": "add_value",
+          "amount": 12.0
+        }],
+          "minecraft:custom_data":{"spectrum_by_package":"real_dreamflayer"}
+        }
+      }
+    }

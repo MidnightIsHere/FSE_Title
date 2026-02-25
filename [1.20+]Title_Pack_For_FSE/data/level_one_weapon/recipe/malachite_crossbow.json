@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["EeB",
+                "eCe",
+                "BeE"],
+    "key": {
+      "E": {"item": "minecraft:emerald_block"},
+      "B": {"item": "minecraft:blaze_rod"},
+      "e": {"item": "minecraft:emerald"},
+      "C": {"item": "minecraft:crossbow"}
+    },
+    "result": {
+      "id": "minecraft:crossbow",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"孔雀石弩\",\"color\":\"green\",\"italic\":false}",
+        "minecraft:lore":["{\"text\":\"这把弩，似乎是来自于那个远古的魔法时代\",\"color\":\"green\",\"italic\":false}",
+        "{\"text\":\"它现在很弱，因为你没有发现它全部的力量\",\"color\":\"green\",\"italic\":false}",
+        "{\"text\":\"它有一条墨水管线，但是里面没有墨水\",\"color\":\"green\",\"italic\":false}"],
+        "minecraft:enchantments": {"minecraft:piercing":5,"minecraft:unbreaking":10,"quick_charge":2},
+        "minecraft:custom_data":{"spectrum_by_package":"malachite_crossbow"}
+      }
+    }
+  }

@@ -1,0 +1,32 @@
+{
+    "parent": "custom_wep_adv:guide_one",
+        "display":{
+        "icon":{
+            "id":"kubejs:night_crest"
+        },
+        "title":"夜琉璃",
+        "description":"这是夜琉璃，和月琉璃相反，但是能量却大得多",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"kubejs:night_crest",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "recipes":[
+        "material:fork_core",
+        "material:mirror_core",
+        "material:upgrade_core"]
+        }
+    }

@@ -1,0 +1,25 @@
+{
+    "parent":"login:first_time",
+        "display":{
+        "icon":{
+            "id":"minecraft:diamond_sword"
+        },
+        "title":"当断即断",
+        "description":"这是仁之剑，这是义之剑",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "diamond_sword_make":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"diamond_sword"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    }
+}

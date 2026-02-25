@@ -1,0 +1,16 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"mace"}],
+    "template":[{"item":"tide_armor_trim_smithing_template"}],
+    "addition":[{"item":"heart_of_the_sea"}],
+    "result": {
+        "id": "minecraft:mace",
+        "components": {
+          "minecraft:custom_name": "{\"text\":\"浪涌\",\"color\":\"aqua\",\"italic\":false}",
+          "minecraft:lore":["{\"text\":\"这把锤子里流淌着海洋的力量....\",\"color\":\"aqua\",\"italic\":false}",
+          "{\"text\":\"不知道为什么，你握着它的时候感受到了一丝平静\",\"color\":\"aqua\",\"italic\":false}"],
+          "minecraft:enchantments": {"wind_burst":2,"minecraft:sharpness":5,"minecraft:unbreaking":3,"minecraft:looting":2,"minecraft:mending":1},
+          "minecraft:custom_data":{"custom_weapon":"ocean_mace"}
+        }
+      }
+    }

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["CSC",
+                "GOG",
+                "CSC"],
+    "key": {
+      "C": {"item": "copper_block"},
+      "G": {"item": "ghast_tear"},
+      "O": {"item": "ominous_trial_key"},
+      "S": {"item": "shulker_shell"}
+    },
+    "result": {
+      "id": "heavy_core",
+      "count":1
+      }
+    }

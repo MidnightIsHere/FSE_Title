@@ -1,0 +1,28 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"dragon_head"
+        },
+        "title":"斩龙者",
+        "description":"龙....可是帝王之征啊！",
+        "frame":"goal",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "dragon_heads":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"dragon_head",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

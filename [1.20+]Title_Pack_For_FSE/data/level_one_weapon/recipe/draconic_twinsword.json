@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["TDS",
+                "DND",
+                "SDT"],
+    "key": {
+      "N": {"item": "minecraft:nether_star"},
+      "D": {"item": "minecraft:dragon_breath"},
+      "S": {"item": "minecraft:netherite_sword"},
+      "T": {"item": "minecraft:trident"}
+    },
+    "result": {
+      "id": "kubejs:draconic_twinsword",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"龙之双剑\",\"color\":\"light_purple\",\"italic\":false}",
+        "minecraft:lore":["{\"text\":\"这把双剑，似乎是来自于那个远古的魔法时代\",\"color\":\"light_purple\",\"italic\":false}",
+        "{\"text\":\"你将它握在手中，感受到了来自魔法时代的龙血的力量，经久不衰\",\"color\":\"light_purple\",\"italic\":false}",
+        "{\"text\":\"它依然拥有着魔力，等待着你的差遣\",\"color\":\"light_purple\",\"italic\":false}"],
+        "minecraft:enchantments": {"minecraft:sharpness":10,"minecraft:looting":4},
+        "minecraft:attribute_modifiers": [{
+            "id": "minecraft:netherite_sword",
+          "type": "generic.attack_speed",
+          "slot": "mainhand",
+          "operation": "add_value",
+          "amount": 2.0
+        },
+        {
+          "id": "minecraft:netherite_sword",
+        "type": "generic.attack_damage",
+        "slot": "mainhand",
+        "operation": "add_multiplied_base",
+        "amount": 4
+      }],
+        "minecraft:custom_data":{"spectrum_by_package":"draconic_twinsword"}
+      }
+    }
+  }

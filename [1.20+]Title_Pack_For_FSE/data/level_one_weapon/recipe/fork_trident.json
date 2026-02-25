@@ -1,0 +1,17 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:fork_core"}],
+    "template":[{"item":"diamond_block"}],
+    "addition":[{"item":"kubejs:night_crest"}],
+    "result": {
+        "id": "minecraft:trident",
+        "components": {
+          "minecraft:custom_name": "{\"text\":\"瀑流三叉戟\",\"color\":\"aqua\",\"italic\":false}",
+          "minecraft:lore":["{\"text\":\"这把三叉戟里流淌着海洋的力量....\",\"color\":\"aqua\",\"italic\":false}",
+          "{\"text\":\"激荡核心赋予其不可破坏与激流之力\",\"color\":\"aqua\",\"italic\":false}"],
+          "minecraft:enchantments": {"riptide":10,"minecraft:sharpness":10,"minecraft:looting":4,"minecraft:mending":1},
+          "unbreakable":{"show_in_tooltip":true},
+          "minecraft:custom_data":{"custom_weapon":"fork_trident"}
+        }
+      }
+    }

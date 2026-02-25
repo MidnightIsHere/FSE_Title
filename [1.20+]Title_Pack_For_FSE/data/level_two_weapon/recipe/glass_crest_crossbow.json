@@ -1,0 +1,32 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"crossbow"}],
+    "template":[
+    {"item":"kubejs:crest_upgrade_smithing_template"}
+],
+    "addition":[{"item":"kubejs:upgrade_core"}],
+    "result": {
+        "id": "crossbow",
+          "components": {
+            "minecraft:custom_name": "{\"text\":\"月琉璃弩\",\"color\":\"white\",\"italic\":false}",
+            "minecraft:lore":["{\"text\":\"这把弩，来自于那个远古的魔法时代\",\"color\":\"white\",\"italic\":false}",
+            "{\"text\":\"它与世界的连结重新被激活，月琉璃的力量从箭矢身上喷发而出\",\"color\":\"green\",\"italic\":false}"],
+            "minecraft:enchantments": {"minecraft:power":8,"minecraft:unbreaking":4,"minecraft:looting":4,"minecraft:mending":1,"piercing":5},
+            "minecraft:attribute_modifiers": [{
+                "id": "minecraft:netherite_sword",
+              "type": "generic.attack_speed",
+              "slot": "mainhand",
+              "operation": "add_value",
+              "amount": -3.0
+            },
+            {
+              "id": "minecraft:netherite_sword",
+            "type": "generic.attack_damage",
+            "slot": "mainhand",
+            "operation": "add_value",
+            "amount": 14.0
+          }],
+            "minecraft:custom_data":{"spectrum_by_package":"glass_crest_crossbow"}
+          }
+        }
+      }

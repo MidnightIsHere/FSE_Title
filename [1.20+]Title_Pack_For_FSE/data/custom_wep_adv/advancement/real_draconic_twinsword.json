@@ -1,0 +1,20 @@
+{
+    "parent":"custom_wep_adv:draconic_twinsword",
+        "display":{
+        "icon":{
+            "id":"kubejs:draconic_twinsword"
+        },
+        "title":"真龙双剑",
+        "description":"龙，可是帝王之征啊!!!!!!",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{"recipe_id":"level_two_weapon:real_draconic_twinsword"}
+        }
+    }
+}

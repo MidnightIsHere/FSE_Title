@@ -1,0 +1,27 @@
+{
+    "parent": "login:amethyst_shard",
+        "display":{
+        "icon":{
+            "id":"minecraft:book"
+        },
+        "title":"七彩世界.....?",
+        "description":"你试图合成七彩世界，果然失败了，但是你发现了有些什么东西在书中跳动",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"other_crafting:colorful_world"
+            }
+                }
+            },
+        "rewards":{
+            "recipes":[
+            "level_one_weapon:mace_smithing"
+            ]
+        }
+        }

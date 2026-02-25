@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["IEH",
+                "EAE",
+                "BEI"],
+    "key": {
+      "I": {"item": "minecraft:netherite_ingot"},
+      "E": {"item": "minecraft:echo_shard"},
+      "A": {"item": "minecraft:netherite_axe"},
+      "B": {"item": "minecraft:breeze_rod"},
+      "H": {"item": "minecraft:heavy_core"}
+    },
+    "result": {
+      "id": "kubejs:nightmare",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"梦魇\",\"color\":\"light_purple\",\"italic\":false}",
+        "minecraft:lore":["{\"text\":\"这把斧头，虽然不是来自于那个远古的魔法时代，但是却有那个时代的残存\",\"color\":\"light_purple\",\"italic\":false}",
+        "{\"text\":\"你将它握在手中，感受到了来自魔法时代的力量，经久不衰\",\"color\":\"light_purple\",\"italic\":false}",
+        "{\"text\":\"它将成为新的梦魇......\",\"color\":\"light_purple\",\"italic\":false}"],
+        "minecraft:enchantments": {"minecraft:sharpness":10,"minecraft:looting":4,"efficiency":6,"unbreaking":4,"mending":1},
+        "minecraft:attribute_modifiers": [{
+            "id": "minecraft:netherite_axe",
+          "type": "generic.attack_speed",
+          "slot": "mainhand",
+          "operation": "add_value",
+          "amount": 2.0
+        },
+        {
+          "id": "minecraft:netherite_axe",
+        "type": "generic.attack_damage",
+        "slot": "mainhand",
+        "operation": "add_multiplied_base",
+        "amount": 4
+      }],
+        "minecraft:custom_data":{"spectrum_by_package":"nightmare"}
+      }
+    }
+  }

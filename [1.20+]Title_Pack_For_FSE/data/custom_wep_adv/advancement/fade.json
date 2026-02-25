@@ -1,0 +1,22 @@
+{
+    "parent":"custom_wep_adv:nightmare",
+        "display":{
+        "icon":{
+            "id":"kubejs:nightmare"
+        },
+        "title":"消逝",
+        "description":"所有事物终将消逝，即使神兵也不例外",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"level_two_weapon:fade"
+            }
+        }
+    }
+}

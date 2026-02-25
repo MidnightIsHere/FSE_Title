@@ -1,0 +1,17 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:mirror_core"}],
+    "template":[{"item":"diamond_block"}],
+    "addition":[{"item":"kubejs:night_crest"}],
+    "result": {
+        "id": "minecraft:trident",
+        "components": {
+          "minecraft:custom_name": "{\"text\":\"镜之三叉戟\",\"color\":\"aqua\",\"italic\":false}",
+          "minecraft:lore":["{\"text\":\"这把三叉戟里流淌着海洋的力量....\",\"color\":\"aqua\",\"italic\":false}",
+          "{\"text\":\"棱镜核心赋予其不可破坏与忠诚之力\",\"color\":\"aqua\",\"italic\":false}"],
+          "minecraft:enchantments": {"loyalty":20,"minecraft:sharpness":10,"minecraft:looting":4,"minecraft:mending":1},
+          "unbreakable":{"show_in_tooltip":true},
+          "minecraft:custom_data":{"custom_weapon":"mirror_trident"}
+        }
+      }
+    }

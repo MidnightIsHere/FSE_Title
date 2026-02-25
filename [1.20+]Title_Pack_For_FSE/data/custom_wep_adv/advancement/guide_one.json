@@ -1,0 +1,52 @@
+{
+    "parent": "custom_wep_adv:root",
+        "display":{
+        "icon":{
+            "id":"minecraft:nether_star"
+        },
+        "title":"神秘符号的指引I",
+        "description":"书上写着:收集至少1块下界合金，1个下界合金升级模板，1把钻石剑来启动你的多彩旅途",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"minecraft:netherite_ingot",
+                    "count":1
+                },
+                {
+                    "items":"minecraft:netherite_upgrade_smithing_template",
+                    "count":1
+                },
+                {
+                    "items":"minecraft:diamond_sword",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "recipes":[
+        "level_one_weapon:draconic_twinsword",
+        "level_one_weapon:dreamflayer",
+        "level_one_weapon:echo_shadow",
+        "level_one_weapon:endness",
+        "material:fork_core",
+        "level_one_weapon:mace_smithing",
+        "level_one_weapon:malachite_crossbow",
+        "level_one_weapon:malachite_reatsword",
+        "material:mirror_core",
+        "level_one_weapon:nightmare",
+        "material:glass_crest_smithing",
+        "material:glass_crest_core_smithing",
+        "material:heavy_core",
+        "material:trident_head",
+        "material:night_crest"]
+        }
+    }

@@ -1,0 +1,20 @@
+{
+    "parent":"custom_wep_adv:endness",
+        "display":{
+        "icon":{
+            "id":"kubejs:endness"
+        },
+        "title":"终焉-MK2",
+        "description":"终焉的第二版，相比第一版来说更重，但也更强",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{"recipe_id":"level_two_weapon:lvl_two_endness"}
+        }
+    }
+}

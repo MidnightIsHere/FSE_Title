@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients":[
+      {"item": "kubejs:forged_upgrade_smithing_template"},
+      {"item": "kubejs:ocean_upgrade_smithing_template"},
+      {"item": "kubejs:heavy_upgrade_smithing_template"}
+    ],
+    "result": {
+      "id": "kubejs:three_in_one_upgrade_smithing_template",
+      "count":3,
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"三合一升级锻造模板\",\"color\":\"blue\",\"italic\":false}",
+        "minecraft:lore":["{\"text\":\"这是一张三合一模板\",\"color\":\"blue\",\"italic\":false}",
+        "{\"text\":\"它可以兼容所有需要重铸，海洋，重型模板的配方\",\"color\":\"blue\",\"italic\":false}"],
+        "minecraft:enchantments": {"minecraft:mending":1},
+        "minecraft:custom_data":{"spectrum_by_package":"three_in_one_temp"}
+      }
+    }
+  }

@@ -1,0 +1,22 @@
+{
+    "parent":"custom_wep_adv:malachite_crossbow",
+        "display":{
+        "icon":{
+            "id":"crossbow"
+        },
+        "title":"月琉璃弩",
+        "description":"月琉璃制作而成，牺牲了部分拉弓速度换取高额伤害",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"level_two_weapon:glass_crest_crossbow"
+            }
+        }
+    }
+}

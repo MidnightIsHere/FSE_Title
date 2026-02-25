@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [" ES",
+                "BSE",
+                "NB "],
+    "key": {
+      "E": {"item": "minecraft:echo_shard"},
+      "B": {"item": "minecraft:breeze_rod"},
+      "N": {"item": "minecraft:netherite_sword"},
+      "S": {"item": "minecraft:heavy_core"}
+    },
+    "result": {
+      "id": "kubejs:dreamflayer",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"离梦利刃\",\"color\":\"red\",\"italic\":false}",
+        "minecraft:lore":["{\"text\":\"这把剑，似乎是来自于那个远古的魔法时代\",\"color\":\"red\",\"italic\":false}",
+        "{\"text\":\"虽然它与世界的连结已经被阻断，但是它依然锋利\",\"color\":\"red\",\"italic\":false}",
+        "{\"text\":\"它的墨水槽依然未干，仿佛等待着那个世界的召唤....\",\"color\":\"red\",\"italic\":false}"],
+        "minecraft:enchantments": {"minecraft:sharpness":14,"minecraft:unbreaking":10},
+        "minecraft:attribute_modifiers": [{
+            "id": "minecraft:netherite_sword",
+          "type": "generic.attack_speed",
+          "slot": "mainhand",
+          "operation": "add_value",
+          "amount": -1.5
+        },
+        {
+          "id": "minecraft:netherite_sword",
+        "type": "generic.attack_damage",
+        "slot": "mainhand",
+        "operation": "add_value",
+        "amount": 15.0
+      }],
+        "minecraft:custom_data":{"spectrum_by_package":"dreamflayer"}
+      }
+    }
+  }

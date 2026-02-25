@@ -1,0 +1,22 @@
+{
+    "parent": "custom_wep_adv:forged_temp",
+        "display":{
+        "icon":{
+            "id":"kubejs:three_in_one_upgrade_smithing_template"
+        },
+        "title":"三合一锻造升级模板",
+        "description":"升级模板，可以用于任何一个需要重铸/海洋/重型模板的合成",
+        "frame":"goal",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"material:three_in_one_temp"
+            }
+        }
+    }
+}

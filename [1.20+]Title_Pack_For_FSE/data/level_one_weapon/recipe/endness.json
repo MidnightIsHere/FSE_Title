@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["DDS",
+                "BHD",
+                "NBD"],
+    "key": {
+      "D": {"item": "minecraft:dragon_breath"},
+      "S": {"item": "nether_star"},
+      "B": {"item": "minecraft:breeze_rod"},
+      "N": {"item": "minecraft:netherite_sword"},
+      "H": {"item": "minecraft:heavy_core"}
+    },
+    "result": {
+      "id": "kubejs:endness",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"终焉\",\"color\":\"light_purple\",\"italic\":false}",
+        "minecraft:lore":["{\"text\":\"这把剑，似乎是来自于某位传奇铸剑师的手\",\"color\":\"light_purple\",\"italic\":false}",
+        "{\"text\":\"经过数百年的风霜，它依然锋利\",\"color\":\"light_purple\",\"italic\":false}",
+        "{\"text\":\"它等待着被召唤....\",\"color\":\"light_purple\",\"italic\":false}"],
+        "minecraft:enchantments": {"minecraft:sharpness":16,"minecraft:unbreaking":10},
+        "minecraft:attribute_modifiers": [{
+            "id": "minecraft:netherite_sword",
+          "type": "generic.attack_speed",
+          "slot": "mainhand",
+          "operation": "add_value",
+          "amount": -1.5
+        },
+        {
+          "id": "minecraft:netherite_sword",
+        "type": "generic.attack_damage",
+        "slot": "mainhand",
+        "operation": "add_value",
+        "amount": 15.0
+      }],
+        "minecraft:custom_data":{"spectrum_by_package":"endness"}
+      }
+    }
+  }

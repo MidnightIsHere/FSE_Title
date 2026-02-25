@@ -1,0 +1,28 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"create:creative_motor"
+        },
+        "title":"Is Your Cheating?",
+        "description":"创造马达?何时来的?!",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "creative_motor":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"create:creative_motor",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 0
+        }
+    }

@@ -1,0 +1,20 @@
+{
+    "parent":"custom_wep_adv:soul_severing_pick",
+        "display":{
+        "icon":{
+            "id":"kubejs:soul_severing_pick"
+        },
+        "title":"离魂镐-时运",
+        "description":"离魂镐的升级形态，以无法进行精准采集为代价换来了强大的时运能力",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{"recipe_id":"level_two_weapon:soul_severing_pick_fort"}
+        }
+    }
+}

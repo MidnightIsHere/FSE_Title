@@ -1,0 +1,34 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:endness"}],
+    "template":[
+    {"item":"kubejs:heavy_upgrade_smithing_template"},
+    {"item":"kubejs:three_in_one_upgrade_smithing_template"}
+],
+    "addition":[{"item":"kubejs:upgrade_core"}],
+    "result": {
+        "id": "netherite_sword",
+          "components": {
+            "minecraft:custom_name": "{\"text\":\"终焉-MKII\",\"color\":\"light_purple\",\"italic\":false}",
+            "minecraft:lore":["{\"text\":\"这把剑，似乎是来自于某位传奇铸剑师的手\",\"color\":\"light_purple\",\"italic\":false}",
+            "{\"text\":\"这是第二型，更好，更快，更强\",\"color\":\"light_purple\",\"italic\":false}",
+            "{\"text\":\"它等待着被召唤....\",\"color\":\"light_purple\",\"italic\":false}"],
+            "minecraft:enchantments": {"minecraft:sharpness":20,"minecraft:unbreaking":10},
+            "minecraft:attribute_modifiers": [{
+                "id": "minecraft:netherite_sword",
+              "type": "generic.attack_speed",
+              "slot": "mainhand",
+              "operation": "add_value",
+              "amount": -1.5
+            },
+            {
+              "id": "minecraft:netherite_sword",
+            "type": "generic.attack_damage",
+            "slot": "mainhand",
+            "operation": "add_value",
+            "amount": 12.0
+          }],
+            "minecraft:custom_data":{"spectrum_by_package":"endness"}
+          }
+        }
+      }

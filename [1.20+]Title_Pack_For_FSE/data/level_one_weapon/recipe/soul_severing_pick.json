@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [" NG",
+                " CN",
+                "P  "],
+    "key": {
+      "N": {"item": "minecraft:nether_star"},
+      "G": {"item": "kubejs:glass_crest"},
+      "P": {"item": "minecraft:netherite_pickaxe"},
+      "C": {"item": "kubejs:glass_crest_core"}
+    },
+    "result": {
+      "id": "kubejs:soul_severing_pick",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"离魂镐\",\"color\":\"light_purple\",\"italic\":false}",
+        "minecraft:lore":["{\"text\":\"这把十字镐，虽然不是来自于那个远古的魔法时代，但是却有那个时代的残存\",\"color\":\"light_purple\",\"italic\":false}",
+        "{\"text\":\"你将它握在手中，感受到了来自魔法时代的力量，经久不衰\",\"color\":\"light_purple\",\"italic\":false}",
+        "{\"text\":\"它将成为挖掘利器......\",\"color\":\"light_purple\",\"italic\":false}"],
+        "minecraft:enchantments": {"minecraft:fortune":4,"efficiency":10,"unbreaking":3,"mending":1},
+        "minecraft:custom_data":{"spectrum_by_package":"soul_severing_pick"}
+      }
+    }
+  }

@@ -1,0 +1,25 @@
+{
+    "parent": "custom_wep_adv:echo_shadow",
+        "display":{
+        "icon":{
+            "id":"netherite_hoe"
+        },
+        "title":"晶琉璃",
+        "description":"晶琉璃 是你在前期唯一能做的二级武器，你需要一把回响影镰来完成它",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"level_two_weapon:crystal_crest_smithing"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }
