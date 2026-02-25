@@ -25,16 +25,16 @@ jobs:
               run: zip -r titlePackResource.zip ./TitlePackForFSE/resource/*
 
             - name: "Upload KubeJS"
-              uses: actions/upload-artifact@v3
+              uses: actions/upload-artifact@v6
               with:
                   name: kubejs
 
             - name: "Upload TitlePackData"
-              uses: actions/upload-artifact@v3
+              uses: actions/upload-artifact@v6
               with:
                   name: titlePackData
 
             - name: "Upload TitlePackResourcePack"
-              uses: actions/upload-artifact@v3
+              uses: actions/upload-artifact@v6
               with:
                   name: titlePackResource
