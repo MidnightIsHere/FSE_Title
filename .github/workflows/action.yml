@@ -27,14 +27,12 @@ jobs:
             - name: "Upload KubeJS"
               uses: actions/upload-artifact@v6
               with:
-                  name: kubejs
-                  path: kubejs.zip
+                  path: ./kubejs.zip
 
             - name: "Upload TitlePackData"
               uses: actions/upload-artifact@v6
               with:
-                  name: titlePackData
-                  path: titlePackData.zip
+                  path: ./titlePackData.zip
 
             # - name: "Upload TitlePackResourcePack"
             #   uses: actions/upload-artifact@v6
