@@ -1,7 +1,6 @@
 {
-    "values":
-    [
-        "loadmessage:message",
-        "addtitle:title"
-    ]
-    }
+  "values": [
+    "loadmessage:message",
+    "addtitle:title"
+  ]
+}

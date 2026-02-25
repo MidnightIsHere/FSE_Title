@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "login:first_entry"
+        "function": "fse:login/first_entry"
     }
 }

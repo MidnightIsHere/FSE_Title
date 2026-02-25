@@ -1,10 +1,9 @@
 {
-    "values":
-    [
-        "login:online_detect",
-        "addtitle:tickmonitor",
-        "cleanfloor:clean",
-        "addtitle:ranks_tag",
-        "addtitle:admin_tag"
-    ]
-    }
+  "values": [
+    "login:online_detect",
+    "addtitle:tickmonitor",
+    "cleanfloor:clean",
+    "addtitle:ranks_tag",
+    "addtitle:admin_tag"
+  ]
+}
