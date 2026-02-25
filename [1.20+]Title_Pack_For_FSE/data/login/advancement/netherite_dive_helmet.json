@@ -1,0 +1,36 @@
+{
+    "parent": "login:copper_dive_helmet",
+        "display":{
+        "icon":{
+            "id":"create:netherite_diving_helmet"
+        },
+        "title":"是谁住在深海的啊烫烫烫烫",
+        "description":"拿到合金潜水头盔，然后.....去岩浆里游泳！当然，别忘记带备用气罐(潜水区再次传来噩耗)",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "netherite_dive":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"create:netherite_diving_helmet",
+                    "count":1
+                },
+                {
+                    "items":"create:netherite_backtank",
+                    "count":1
+                },
+                {
+                    "items":"create:netherite_diving_boots",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

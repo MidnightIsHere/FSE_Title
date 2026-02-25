@@ -1,0 +1,22 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"minecraft:red_bed"
+        },
+        "title":"首次进入",
+        "description":"进入FSE服务器并且受到Title系统的欢迎",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "first_entry_welcome":{
+            "trigger":"tick"
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

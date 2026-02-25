@@ -1,0 +1,28 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"blue_ice"
+        },
+        "title":"Baka",
+        "description":"你获得了一块蓝冰",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "blue_ice":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"blue_ice",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

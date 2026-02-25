@@ -1,0 +1,28 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"ender_pearl"
+        },
+        "title":"超时空辉夜姬！",
+        "description":"末影人:你怎么这么自私！",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "ender_pearl":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"ender_pearl",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

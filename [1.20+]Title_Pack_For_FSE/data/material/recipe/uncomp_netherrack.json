@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [{"item":"kubejs:compressed_netherrack"}],
+    "result": {
+      "id": "netherrack",
+      "count":9
+      }
+    }

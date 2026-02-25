@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [{"item":"kubejs:compressed_diamond_block"}],
+    "result": {
+      "id": "diamond_block",
+      "count":9
+      }
+    }

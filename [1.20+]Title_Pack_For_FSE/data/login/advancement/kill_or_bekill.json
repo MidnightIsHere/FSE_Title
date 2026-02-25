@@ -1,0 +1,25 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"iron_sword"
+        },
+        "title":"击杀或者被杀",
+        "description":"二战转折点?!",
+        "frame":"goal",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "kill_or_bekill":{
+            "trigger":"entity_hurt_player",
+            "conditions":{
+                "damage":{"type":{"is_direct":true}}
+            }
+        }
+    },
+    "rewards": {
+        "experience": 0
+        }
+    }

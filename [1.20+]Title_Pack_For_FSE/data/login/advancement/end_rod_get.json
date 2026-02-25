@@ -1,0 +1,28 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"end_rod"
+        },
+        "title":"有伤风化",
+        "description":"你要拿末地烛干什么????",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "end_rod":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"end_rod",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

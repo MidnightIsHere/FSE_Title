@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["CSN",
+                "GTS",
+                "SGC"],
+    "key": {
+      "G": {"item": "kubejs:glass_crest"},
+      "N": {"item": "kubejs:night_crest"},
+      "C": {"item": "minecraft:prismarine_crystals"},
+      "S": {"item": "minecraft:prismarine_shard"},
+      "T": {"item": "kubejs:trident_head"}
+    },
+    "result": {
+      "id": "kubejs:fork_core",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"激荡核心\",\"color\":\"aqua\",\"italic\":false}",
+        "minecraft:lore":["{\"text\":\"这个核心赋予三叉戟控制波浪的能力\",\"color\":\"aqua\",\"italic\":false}",
+        "{\"text\":\"它永远都不会损坏，除了失手丢进虚空(星之卡比坠落)\",\"color\":\"aqua\",\"italic\":false}"],
+        "minecraft:custom_data":{"spectrum_by_package":"fork_core"}
+      }
+    }
+  }

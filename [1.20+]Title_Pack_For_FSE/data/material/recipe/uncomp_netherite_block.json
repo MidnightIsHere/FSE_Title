@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [{"item":"kubejs:compressed_netherite_block"}],
+    "result": {
+      "id": "netherite_block",
+      "count":9
+      }
+    }

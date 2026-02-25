@@ -1,0 +1,25 @@
+{
+    "parent": "login:kill_or_bekill",
+        "display":{
+        "icon":{
+            "id":"rotten_flesh"
+        },
+        "title":"有点弱。。。",
+        "description":"这在我的世界中时常发生，这是正常的",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "zombie":{
+            "trigger":"entity_killed_player",
+            "conditions":{
+                "entity":{"type":["zombie"]}
+            }
+        }
+    },
+    "rewards": {
+        "experience": 0
+        }
+    }

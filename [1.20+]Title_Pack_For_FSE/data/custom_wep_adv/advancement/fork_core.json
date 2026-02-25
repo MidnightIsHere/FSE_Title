@@ -1,0 +1,25 @@
+{
+    "parent": "custom_wep_adv:night_crest",
+        "display":{
+        "icon":{
+            "id":"kubejs:fork_core"
+        },
+        "title":"激荡核心",
+        "description":"激荡核心，用于合成瀑流三叉戟，1.5级武器",
+        "frame":"goal",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"material:fork_core"
+            }
+        }
+    },
+    "rewards": {
+        "recipes":["level_one_weapon:fork_trident"]
+        }
+    }

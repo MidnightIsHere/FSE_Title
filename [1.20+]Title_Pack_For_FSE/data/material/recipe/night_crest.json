@@ -1,0 +1,15 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"dragon_breath"}],
+    "template":[{"item":"echo_shard"}],
+    "addition":[{"item":"nether_star"}],
+    "result": {
+        "id": "kubejs:night_crest",
+        "components": {
+          "minecraft:custom_name":"{\"text\":\"夜琉璃\",\"color\":\"gray\",\"italic\":false}",
+          "minecraft:lore":["{\"text\":\"这块琉璃十分完美，但是它周身散发着灰色，类似缟玛瑙\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"它是来自远古时代的造物\",\"color\":\"gray\",\"italic\":false}"],
+          "minecraft:custom_data":{"spectrum_by_package":"glass_crest","glass_crest":"target"}
+        }
+      }
+    }

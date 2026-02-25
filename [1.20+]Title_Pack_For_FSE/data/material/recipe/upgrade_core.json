@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["GSN",
+              "CsC",
+              "NSG"],
+  "key": {
+    "G": {"item": "kubejs:glass_crest"},
+    "N": {"item": "kubejs:night_crest"},
+    "C": {"item": "kubejs:glass_crest_core"},
+    "S": {"item": "shulker_shell"},
+    "s": {"item": "kubejs:nether_star"}
+  },
+  "result": {
+    "id": "kubejs:upgrade_core",
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"升级核心\",\"color\":\"light_purple\",\"italic\":false}",
+      "minecraft:lore":["{\"text\":\"光与暗交织在潜影盒中央...看似平静的表面下则是庞大的能量\",\"color\":\"light_purple\",\"italic\":false}",
+      "{\"text\":\"你觉得你马上就要触及巅峰...前提是材料足够\",\"color\":\"light_purple\",\"italic\":false}"],
+      "minecraft:custom_data":{"spectrum_by_package":"upgrade_core"}
+    }
+  }
+}

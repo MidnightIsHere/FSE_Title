@@ -1,0 +1,25 @@
+{
+    "parent": "login:kill_or_bekill",
+        "display":{
+        "icon":{
+            "id":"sculk_catalyst"
+        },
+        "title":"这么强?!",
+        "description":"您居然击杀了监守者，这是极好的，我们会记录下来。",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "slime":{
+            "trigger":"player_killed_entity",
+            "conditions":{
+                "entity":{"type":["warden"]}
+            }
+        }
+    },
+    "rewards": {
+        "experience": 2000
+        }
+    }

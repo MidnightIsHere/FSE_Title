@@ -1,0 +1,22 @@
+{
+    "parent": "custom_wep_adv:mirror_core",
+        "display":{
+        "icon":{
+            "id":"trident"
+        },
+        "title":"镜之三叉戟",
+        "description":"棱镜核心合成，可扔出造成伤害，快速回收",
+        "frame":"goal",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"level_one_weapon:mirror_trident"
+            }
+        }
+    }
+}

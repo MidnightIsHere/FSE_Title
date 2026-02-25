@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["SSS",
+                "SCS",
+                "SSS"],
+    "key": {
+      "C": {"item": "diamond_block"},
+      "S": {"item": "kubejs:compressed_netherrack"}
+    },
+    "result": {
+      "id": "netherite_upgrade_smithing_template"
+      }
+    }

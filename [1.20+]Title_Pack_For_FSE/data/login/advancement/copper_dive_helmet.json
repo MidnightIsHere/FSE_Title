@@ -1,0 +1,36 @@
+{
+    "parent": "login:backtank_get",
+        "display":{
+        "icon":{
+            "id":"create:copper_diving_helmet"
+        },
+        "title":"是谁住在深海的大菠萝里～",
+        "description":"拿到铜潜水套装，去深海看看吧,别忘记带备用气罐(潜水区传来噩耗)",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "copper_dive":{
+            "trigger":"inventory_changed",
+            "conditions":{
+                "items":[{
+                    "items":"create:copper_diving_helmet",
+                    "count":1
+                },
+                {
+                    "items":"create:copper_backtank",
+                    "count":1
+                },
+                {
+                    "items":"create:copper_diving_boots",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

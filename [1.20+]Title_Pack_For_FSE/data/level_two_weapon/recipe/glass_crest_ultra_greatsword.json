@@ -1,0 +1,32 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:malachite_reatsword"}],
+    "template":[
+    {"item":"kubejs:crest_upgrade_smithing_template"}
+],
+    "addition":[{"item":"kubejs:upgrade_core"}],
+    "result": {
+        "id": "netherite_sword",
+          "components": {
+            "minecraft:custom_name": "{\"text\":\"月琉璃巨剑\",\"color\":\"white\",\"italic\":false}",
+            "minecraft:lore":["{\"text\":\"这把剑，来自于那个远古的魔法时代\",\"color\":\"white\",\"italic\":false}",
+            "{\"text\":\"它与世界的连结重新被激活，月琉璃的力量从剑身上喷发而出\",\"color\":\"green\",\"italic\":false}"],
+            "minecraft:enchantments": {"minecraft:sharpness":8,"minecraft:unbreaking":3,"minecraft:looting":2,"minecraft:mending":1,"sweeping_edge":5},
+            "minecraft:attribute_modifiers": [{
+                "id": "minecraft:netherite_sword",
+              "type": "generic.attack_speed",
+              "slot": "mainhand",
+              "operation": "add_value",
+              "amount": -1.0
+            },
+            {
+              "id": "minecraft:netherite_sword",
+            "type": "generic.attack_damage",
+            "slot": "mainhand",
+            "operation": "add_value",
+            "amount": 14.0
+          }],
+            "minecraft:custom_data":{"spectrum_by_package":"glass_crest_ultra_greatsword"}
+          }
+        }
+      }

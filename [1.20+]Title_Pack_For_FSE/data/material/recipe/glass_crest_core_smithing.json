@@ -1,0 +1,15 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"emerald_block"}],
+    "template":[{"item":"heavy_core"}],
+    "addition":[{"item":"kubejs:glass_crest"}],
+    "result": {
+        "id": "kubejs:glass_crest_core",
+        "components": {
+          "minecraft:custom_name":"{\"text\":\"月琉璃核心\",\"color\":\"white\",\"italic\":false}",
+          "minecraft:lore":["{\"text\":\"由下界之星和绿宝石构建的核心\",\"color\":\"white\",\"italic\":false}",
+          "{\"text\":\"柔和的白绿色光芒让你想起了什么......\",\"color\":\"green\",\"italic\":false}"],
+          "minecraft:custom_data":{"spectrum_by_package":"glass_crest_core"}
+        }
+      }
+    }

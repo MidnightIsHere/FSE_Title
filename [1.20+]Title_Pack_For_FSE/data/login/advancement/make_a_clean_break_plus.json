@@ -1,0 +1,25 @@
+{
+    "parent":"login:make_a_clean_break",
+        "display":{
+        "icon":{
+            "id":"minecraft:netherite_sword"
+        },
+        "title":"当断即断PLUS",
+        "description":"下界合金升级是优秀的！",
+        "frame":"goal",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "netherite_sword_make":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"netherite_sword_smithing"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    }
+}

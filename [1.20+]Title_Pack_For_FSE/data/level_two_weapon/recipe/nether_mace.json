@@ -1,0 +1,16 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"mace"}],
+    "template":[{"item":"rib_armor_trim_smithing_template"}],
+    "addition":[{"item":"nether_star"}],
+    "result": {
+        "id": "minecraft:mace",
+        "components": {
+          "minecraft:custom_name":"{\"text\":\"狱岩\",\"color\":\"red\",\"italic\":false}",
+          "minecraft:lore":["{\"text\":\"这把锤子里流淌着地狱的力量....\",\"color\":\"red\",\"italic\":false}",
+          "{\"text\":\"不知道为什么，你握着它的时候感受到了一丝不安\",\"color\":\"red\",\"italic\":false}"],
+          "minecraft:enchantments": {"wind_burst":4,"minecraft:fire_aspect":3,"minecraft:unbreaking":5,"minecraft:looting":2,"minecraft:mending":1},
+          "minecraft:custom_data":{"custom_weapon":"nether_mace"}
+        }
+      }
+    }

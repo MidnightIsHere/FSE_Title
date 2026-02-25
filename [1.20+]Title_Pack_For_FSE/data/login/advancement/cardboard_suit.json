@@ -1,0 +1,44 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"create:cardboard"
+        },
+        "title":"可疑的箱子",
+        "description":"你的传送带上出现了一个可疑的货箱.....",
+        "frame":"goal",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "cardboard_suit":{
+            "trigger":"inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items":
+                    "create:cardboard_helmet",
+                    "count":1
+                },
+                {
+                    "items":
+                    "create:cardboard_chestplate",
+                    "count":1
+                },
+                {
+                    "items":
+                    "create:cardboard_leggings",
+                    "count":1
+                },
+                {
+                    "items":
+                    "create:cardboard_boots",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

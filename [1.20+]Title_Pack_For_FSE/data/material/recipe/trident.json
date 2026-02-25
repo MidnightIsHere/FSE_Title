@@ -1,0 +1,10 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:trident_head"}],
+    "template":[
+    {"item":"minecraft:slime_ball"}],
+    "addition":[{"item":"breeze_rod"}],
+    "result": {
+        "id": "trident"
+      }
+    }
