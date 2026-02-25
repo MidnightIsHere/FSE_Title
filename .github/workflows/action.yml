@@ -15,11 +15,11 @@ jobs:
             - name: "Checkout"
               uses: actions/checkout@v4
 
-            - name: "ZipKubeJS"
-              run: zip -r kubejs.zip ./kubejs
+            # - name: "ZipKubeJS"
+            #   run: zip -r kubejs.zip 
 
-            - name: "ZipTitlePackData"
-              run: zip -r titlePackData.zip ./TitlePackForFSE/data/*
+            # - name: "ZipTitlePackData"
+            #   run: zip -r titlePackData.zip ./TitlePackForFSE/data/*
 
             # - name: "ZipTitlePackResourcePack"
             #   run: zip -r titlePackResource.zip ./TitlePackForFSE/resource/*
@@ -28,13 +28,14 @@ jobs:
               uses: actions/upload-artifact@v6
               with:
                     name: kubejs
-                    path: ./kubejs.zip
+                    path: ./kubejs/
 
             - name: "Upload TitlePackData"
               uses: actions/upload-artifact@v6
               with:
                     name: titlePackData
-                    path: ./titlePackData.zip
+                    path: ./TitlePackForFSE/data/*
+
 
             # - name: "Upload TitlePackResourcePack"
             #   uses: actions/upload-artifact@v6
