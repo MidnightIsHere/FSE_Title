@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["IQI",
+                "QIQ",
+                "IQI"],
+    "key": {
+      "I": {"item": "iron_ingot"},
+      "Q": {"item": "quartz"}
+    },
+    "result": {
+      "id": "kubejs:catalytic_substrate_blank"
+      }
+    }

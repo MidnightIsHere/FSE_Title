@@ -1,0 +1,11 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:brust_alloy_shovel"}],
+    "template":[
+    {"item":"kubejs:adamantium_upgrade_smithing_template"}
+],
+    "addition":[{"item":"kubejs:adamantium_ingot"}],
+    "result": {
+        "id": "kubejs:adamantium_shovel"
+        }
+      }

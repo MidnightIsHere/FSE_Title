@@ -1,0 +1,25 @@
+{
+    "parent":"login:make_a_clean_break_plus",
+        "display":{
+        "icon":{
+            "id":"kubejs:brust_alloy_sword"
+        },
+        "title":"当断即断ULTRA",
+        "description":"冲击合金，冲刺，冲刺!",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "netherite_sword_make":{
+            "trigger":"recipe_crafted",
+            "conditions":{
+                "recipe_id":"custom_tools:brust_alloy_sword"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    }
+}

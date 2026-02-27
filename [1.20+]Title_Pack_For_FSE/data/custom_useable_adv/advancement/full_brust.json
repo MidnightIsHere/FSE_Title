@@ -1,0 +1,69 @@
+{
+    "parent": "custom_useable_adv:root",
+        "display":{
+        "icon":{
+            "id":"minecraft:nether_star"
+        },
+        "title":"完美冲击",
+        "description":"拥有全套冲击合金盔甲和工具，当然，这包括锄头",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "full_stack":{
+            "trigger":"inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items":
+                    "kubejs:brust_alloy_helmet",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_chestplate",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_leggings",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_boots",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_sword",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_shovel",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_axe",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_pickaxe",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_hoe",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

@@ -1,0 +1,49 @@
+{
+    "parent": "custom_useable_adv:root",
+        "display":{
+        "icon":{
+            "id":"kubejs:adamantium_pickaxe"
+        },
+        "title":"艾德曼工程师",
+        "description":"拥有全套艾德曼工具，当然，这包括锄头",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "full_stack":{
+            "trigger":"inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items":
+                    "kubejs:adamantium_sword",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_shovel",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_axe",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_pickaxe",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_hoe",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

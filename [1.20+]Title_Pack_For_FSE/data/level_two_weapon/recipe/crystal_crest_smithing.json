@@ -4,7 +4,7 @@
     "template":[{"item":"kubejs:glass_crest"}],
     "addition":[{"item":"ghast_tear"}],
     "result": {
-      "id": "minecraft:netherite_hoe",
+      "id": "kubejs:crystal_crest",
       "components": {
         "minecraft:custom_name": "{\"text\":\"晶琉璃\",\"color\":\"#D8BFD8\",\"italic\":false}",
         "minecraft:lore":["{\"text\":\"回响影镰的改进型，使用温和的月琉璃来中和末影水晶的能量\",\"color\":\"#D8BFD8\",\"italic\":false}",

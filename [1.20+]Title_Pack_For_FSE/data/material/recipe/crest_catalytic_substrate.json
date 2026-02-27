@@ -1,0 +1,9 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:catalytic_substrate_blank"}],
+    "template":[{"item":"kubejs:night_crest"}],
+    "addition":[{"item":"kubejs:glass_crest"}],
+    "result": {
+        "id": "kubejs:crest_catalytic_substrate"
+      }
+    }

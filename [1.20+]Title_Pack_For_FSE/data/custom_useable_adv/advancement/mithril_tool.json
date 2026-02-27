@@ -1,0 +1,49 @@
+{
+    "parent": "custom_useable_adv:root",
+        "display":{
+        "icon":{
+            "id":"kubejs:mithril_pickaxe"
+        },
+        "title":"秘银工程师",
+        "description":"拥有全套秘银工具，当然，这包括锄头",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "full_stack":{
+            "trigger":"inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items":
+                    "kubejs:mithril_sword",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:mithril_shovel",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:mithril_axe",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:mithril_pickaxe",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:mithril_hoe",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

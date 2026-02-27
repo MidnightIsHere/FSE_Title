@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {"min": 1, "max": 1},
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:baked_potato",
+          "functions": [{"function": "minecraft:set_components", "components": {
+            "minecraft:custom_name": "{\"text\":\"FSE服务器\",\"color\":\"light_purple\",\"italic\":false}",
+            "minecraft:lore":["{\"text\":\"这块土豆的形状好像和你日常收割的不一样\",\"color\":\"light_purple\",\"italic\":false}",
+            "{\"text\":\"这个土豆已经被烤熟了，而且形状很像服务器，不知道为什么\",\"color\":\"light_purple\",\"italic\":false}",
+            "{\"text\":\"[FSE服务器-特殊纪念品]\",\"color\":\"light_purple\",\"italic\":false}"],
+            "minecraft:enchantments": {"minecraft:fire_aspect":10}
+            }}],
+          "weight": 10
+        }]}]}

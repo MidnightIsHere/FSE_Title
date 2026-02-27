@@ -1,0 +1,49 @@
+{
+    "parent": "custom_useable_adv:root",
+        "display":{
+        "icon":{
+            "id":"kubejs:immortal_alloy_pickaxe"
+        },
+        "title":"永恒工程师",
+        "description":"拥有全套永恒工具，这包括锄头，现在你手中握着无穷的力量",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "full_stack":{
+            "trigger":"inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items":
+                    "kubejs:immortal_alloy_sword",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:immortal_alloy_shovel",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:immortal_alloy_axe",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:immortal_alloy_pickaxe",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:immortal_alloy_hoe",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

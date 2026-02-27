@@ -1,0 +1,11 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"netherite_hoe"}],
+    "template":[
+    {"item":"kubejs:brust_alloy_upgrade_smithing_template"}
+],
+    "addition":[{"item":"kubejs:brust_alloy"}],
+    "result": {
+        "id": "kubejs:brust_alloy_hoe"
+        }
+      }

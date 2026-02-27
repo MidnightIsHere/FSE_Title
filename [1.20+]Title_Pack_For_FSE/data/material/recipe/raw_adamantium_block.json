@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["SSS",
+                "SSS",
+                "SSS"],
+    "key": {
+      "S": {"item": "kubejs:raw_adamantium"}
+    },
+    "result": {
+      "id": "kubejs:raw_adamantium_block"
+      }
+    }

@@ -1,0 +1,23 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"minecraft:baked_potato"
+        },
+        "title":"这不只是一块土豆",
+        "description":"你收获了2000个土豆，不知为何，你手中的土豆有点像一个微缩服务器",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"impossible"
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "loot":["login:chests/fse_server_reward"]
+        }
+    }

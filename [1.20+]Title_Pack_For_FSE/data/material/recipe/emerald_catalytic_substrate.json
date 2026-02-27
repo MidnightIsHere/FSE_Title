@@ -1,0 +1,9 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:catalytic_substrate_blank"}],
+    "template":[{"item":"kubejs:brust_alloy_block"}],
+    "addition":[{"item":"emerald_block"}],
+    "result": {
+        "id": "kubejs:emerald_catalytic_substrate"
+      }
+    }

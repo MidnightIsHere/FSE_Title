@@ -1,0 +1,11 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:brust_alloy_axe"}],
+    "template":[
+    {"item":"kubejs:mithril_upgrade_smithing_template"}
+],
+    "addition":[{"item":"kubejs:mithril_ingot"}],
+    "result": {
+        "id": "kubejs:mithril_axe"
+        }
+      }

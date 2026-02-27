@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients":[{"item":"kubejs:immortal_alloy_block"}],
+  "result": {
+    "id": "kubejs:immortal_alloy_ingot",
+    "count":9
+    }
+  }

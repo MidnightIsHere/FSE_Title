@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {"min": 1, "max": 1},
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [{"function": "minecraft:set_components", "components": {
+            "minecraft:custom_name": "{\"text\":\"地理注解\",\"color\":\"light_purple\",\"italic\":false}",
+            "minecraft:lore":["{\"text\":\"你行走了超过10000格，途中遇到了许多稀有地形\",\"color\":\"light_purple\",\"italic\":false}",
+            "{\"text\":\"你把它们记录了下来，著成这本《地理注解》\",\"color\":\"light_purple\",\"italic\":false}",
+            "{\"text\":\"[行万里路-特殊纪念品]\",\"color\":\"light_purple\",\"italic\":false}"],
+            "minecraft:enchantments": {"minecraft:mending":1,"minecraft:unbreaking":10}
+            }}],
+          "weight": 10
+        }]}]}

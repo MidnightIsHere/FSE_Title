@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["SSS",
+                "SSS",
+                "SSS"],
+    "key": {
+      "S": {"item": "kubejs:immortal_alloy_nugget"}
+    },
+    "result": {
+      "id": "kubejs:immortal_alloy_ingot"
+      }
+    }

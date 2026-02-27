@@ -1,0 +1,23 @@
+{
+    "parent": "login:root",
+        "display":{
+        "icon":{
+            "id":"minecraft:oak_boat"
+        },
+        "title":"行万里路",
+        "description":"你探索了超过10000格，这是你成就的证明!",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "amethyst_shard":{
+            "trigger":"impossible"
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "loot":["login:chests/walk_for_miles_reward"]
+        }
+    }

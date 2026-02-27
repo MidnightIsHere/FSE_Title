@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients":[{"item":"kubejs:compressed_basalt"}],
+  "result": {
+    "id": "basalt",
+    "count":64
+    }
+  }

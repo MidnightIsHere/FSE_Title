@@ -1,0 +1,22 @@
+{
+        "display":{
+        "icon":{
+            "id":"minecraft:written_book"
+        },
+        "title":"终端",
+        "description":"终端给予程序，这是你唯一的头衔切换终端",
+        "frame":"task",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "first_entry_terminal":{
+            "trigger":"tick"
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "function":"addtitle:terminal"
+        }
+    }

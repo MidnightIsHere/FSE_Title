@@ -1,0 +1,9 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:catalytic_substrate_blank"}],
+    "template":[{"item":"kubejs:brust_alloy_block"}],
+    "addition":[{"item":"diamond_block"}],
+    "result": {
+        "id": "kubejs:diamond_catalytic_substrate"
+      }
+    }

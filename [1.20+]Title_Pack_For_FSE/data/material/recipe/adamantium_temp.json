@@ -1,0 +1,9 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:adamantium_block"}],
+    "template":[{"item":"kubejs:brust_alloy_upgrade_smithing_template"}],
+    "addition":[{"item":"kubejs:upgrade_core"}],
+    "result": {
+        "id": "kubejs:adamantium_upgrade_smithing_template"
+      }
+    }

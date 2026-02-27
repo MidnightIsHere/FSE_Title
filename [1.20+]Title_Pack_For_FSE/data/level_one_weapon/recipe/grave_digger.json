@@ -1,0 +1,15 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"netherite_shovel"}],
+    "template":[{"item":"kubejs:night_crest"}],
+    "addition":[{"item":"kubejs:brust_alloy"}],
+    "result": {
+        "id": "kubejs:grave_digger",
+        "components": {
+          "minecraft:custom_name": "{\"text\":\"掘墓者\",\"color\":\"#47DE46\",\"italic\":false}",
+          "minecraft:lore":["{\"text\":\"地宫宝藏的搜寻者\",\"color\":\"#47DE46\",\"italic\":false}"],
+          "minecraft:enchantments": {"minecraft:smite":20,"sharpness":10,"minecraft:unbreaking":4,"efficiency":7},
+          "minecraft:custom_data":{"spectrum_by_package":"grave_digger"}
+        }
+      }
+    }

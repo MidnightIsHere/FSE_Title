@@ -1,0 +1,44 @@
+{
+    "parent": "custom_useable_adv:root",
+        "display":{
+        "icon":{
+            "id":"kubejs:mithril_chestplate"
+        },
+        "title":"银光战甲",
+        "description":"集齐秘银套装，提升自己的防御力，它的附魔等级较高",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "cardboard_suit":{
+            "trigger":"inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items":
+                    "kubejs:mithril_helmet",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:mithril_chestplate",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:mithril_leggings",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:mithril_boots",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

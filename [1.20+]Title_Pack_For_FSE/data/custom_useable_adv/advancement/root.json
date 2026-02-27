@@ -1,0 +1,20 @@
+{
+        "display":{
+        "icon":{
+            "id":"netherite_ingot"
+        },
+        "title":"超越金属",
+        "description":"超越金属之路由此开始",
+        "frame":"task",
+        "background":"minecraft:textures/gui/advancements/backgrounds/nether.png",
+        "show_toast":false,
+        "announce_to_chat":false,
+        "hidden":false
+    },
+    "criteria":{
+        "first_root":{
+            "trigger":"inventory_changed",
+            "conditions":{"items":[{"items":"minecraft:netherite_ingot"}]}
+        }
+    }
+}

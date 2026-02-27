@@ -1,0 +1,1 @@
+execute if entity @s[tag=Get_Dragon] as @s run team join Dragon @s

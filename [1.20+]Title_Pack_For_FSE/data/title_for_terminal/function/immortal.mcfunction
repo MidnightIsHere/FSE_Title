@@ -1,0 +1,1 @@
+execute if entity @s[tag=Get_Immortal] as @s run team join Immortal @s

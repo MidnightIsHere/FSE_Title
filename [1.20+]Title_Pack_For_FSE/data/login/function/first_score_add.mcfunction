@@ -1,0 +1,1 @@
+execute as @s run scoreboard players add @s LoginAdd 1

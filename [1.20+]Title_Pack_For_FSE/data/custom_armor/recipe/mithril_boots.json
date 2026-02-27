@@ -1,0 +1,35 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:brust_alloy_boots"}],
+    "template":[{"item":"kubejs:mithril_upgrade_smithing_template"}],
+    "addition":[{"item":"kubejs:mithril_ingot"}],
+    "result": {
+      "id": "kubejs:mithril_boots",
+      "components": {
+        "minecraft:attribute_modifiers": [
+        {
+            "id": "minecraft:netherite_armor",
+          "type": "generic.armor",
+          "slot": "feet",
+          "operation": "add_value",
+          "amount": 5.0
+        },
+        {
+            "id": "minecraft:netherite_armor",
+          "type": "generic.armor_toughness",
+          "slot": "feet",
+          "operation": "add_value",
+          "amount": 5.0
+        },
+        {
+            "id": "minecraft:netherite_armor",
+          "type": "generic.knockback_resistance",
+          "slot": "feet",
+          "operation": "add_value",
+          "amount": 0.2
+        }
+        ],
+        "minecraft:custom_data":{"spectrum_by_package":"draconic_twinsword"}
+      }
+    }
+  }

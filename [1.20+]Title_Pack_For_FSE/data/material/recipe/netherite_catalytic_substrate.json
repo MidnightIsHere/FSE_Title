@@ -1,0 +1,9 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:catalytic_substrate_blank"}],
+    "template":[{"item":"kubejs:brust_alloy_block"}],
+    "addition":[{"item":"netherite_block"}],
+    "result": {
+        "id": "kubejs:netherite_catalytic_substrate"
+      }
+    }

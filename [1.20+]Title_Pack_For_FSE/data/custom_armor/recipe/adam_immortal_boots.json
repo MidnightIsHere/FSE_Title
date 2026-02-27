@@ -1,0 +1,35 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:adamantium_boots"}],
+    "template":[{"item":"kubejs:immortal_upgrade_smithing_template"}],
+    "addition":[{"item":"kubejs:immortal_alloy_ingot"}],
+    "result": {
+      "id": "kubejs:immortal_alloy_boots",
+      "components": {
+        "minecraft:attribute_modifiers": [
+        {
+            "id": "minecraft:netherite_armor",
+          "type": "generic.armor",
+          "slot": "feet",
+          "operation": "add_value",
+          "amount": 7.0
+        },
+        {
+            "id": "minecraft:netherite_armor",
+          "type": "generic.armor_toughness",
+          "slot": "feet",
+          "operation": "add_value",
+          "amount": 7.0
+        },
+        {
+            "id": "minecraft:netherite_armor",
+          "type": "generic.knockback_resistance",
+          "slot": "feet",
+          "operation": "add_value",
+          "amount": 0.4
+        }
+        ],
+        "minecraft:custom_data":{"spectrum_by_package":"draconic_twinsword"}
+      }
+    }
+  }

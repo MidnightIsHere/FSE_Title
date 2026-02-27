@@ -1,0 +1,12 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:immortal_alloy_ingot"}],
+    "template":[
+      {"item":"kubejs:adamantium_upgrade_smithing_template"},
+      {"item":"kubejs:mithril_upgrade_smithing_template"}
+    ],
+    "addition":[{"item":"kubejs:upgrade_core"}],
+    "result": {
+        "id": "kubejs:immortal_upgrade_smithing_template"
+      }
+    }

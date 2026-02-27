@@ -1,0 +1,1 @@
+execute if entity @s[tag=buyed_VIP+] as @s run team join VIP+ @s

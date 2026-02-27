@@ -1,0 +1,44 @@
+{
+    "parent": "custom_useable_adv:root",
+        "display":{
+        "icon":{
+            "id":"kubejs:brust_alloy_chestplate"
+        },
+        "title":"Dash Up!",
+        "description":"集齐冲击合金套装，提升自己的防御力",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "cardboard_suit":{
+            "trigger":"inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items":
+                    "kubejs:brust_alloy_helmet",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_chestplate",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_leggings",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_boots",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

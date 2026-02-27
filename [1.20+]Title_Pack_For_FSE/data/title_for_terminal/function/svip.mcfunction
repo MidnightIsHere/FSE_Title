@@ -1,0 +1,1 @@
+execute if entity @s[tag=buyed_SVIP] as @s run team join SVIP @s

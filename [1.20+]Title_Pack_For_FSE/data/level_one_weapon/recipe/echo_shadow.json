@@ -13,7 +13,7 @@
     "result": {
       "id": "kubejs:echo_shadow",
       "components": {
-        "minecraft:custom_name": "{\"text\":\"回响影镰\",\"color\":\"#4B0082\",\"italic\":false}",
+        "minecraft:custom_name": "{\"text\":\"回溯影镰\",\"color\":\"#4B0082\",\"italic\":false}",
         "minecraft:lore":["{\"text\":\"一把镰刀，刀内蕴有失落古城的力量，将古城先祖付出惨重代价得来的末地水晶封印在内\",\"color\":\"#4B0082\",\"italic\":false}",
         "{\"text\":\"得益于水晶破坏性的能量，拥有了抢夺一切的能力\",\"color\":\"#4B0082\",\"italic\":false}"],
         "minecraft:enchantments": {"minecraft:sharpness":3,"minecraft:unbreaking":3,"minecraft:looting":5,"minecraft:mending":1},

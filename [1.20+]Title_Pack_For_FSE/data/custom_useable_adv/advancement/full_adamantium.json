@@ -1,0 +1,69 @@
+{
+    "parent": "custom_useable_adv:root",
+        "display":{
+        "icon":{
+            "id":"minecraft:nether_star"
+        },
+        "title":"艾德曼机甲",
+        "description":"拥有全套艾德曼盔甲和工具，当然，这包括锄头",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "full_stack":{
+            "trigger":"inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items":
+                    "kubejs:adamantium_helmet",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_chestplate",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_leggings",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_boots",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_sword",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_shovel",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_axe",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_pickaxe",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_hoe",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

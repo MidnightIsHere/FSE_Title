@@ -1,0 +1,44 @@
+{
+    "parent": "custom_useable_adv:root",
+        "display":{
+        "icon":{
+            "id":"kubejs:adamantium_chestplate"
+        },
+        "title":"耐久V",
+        "description":"集齐艾德曼套装，它耐久很高",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "cardboard_suit":{
+            "trigger":"inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items":
+                    "kubejs:adamantium_helmet",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_chestplate",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_leggings",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:adamantium_boots",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

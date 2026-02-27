@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients":[{"item":"kubejs:raw_mithril_block"}],
+  "result": {
+    "id": "kubejs:raw_mithril",
+    "count":9
+    }
+  }

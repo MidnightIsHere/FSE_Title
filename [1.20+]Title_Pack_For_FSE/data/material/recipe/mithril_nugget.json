@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients":[{"item":"kubejs:mithril_ingot"}],
+  "result": {
+    "id": "kubejs:mithril_nugget",
+    "count":9
+    }
+  }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients":[{"item":"kubejs:adamantium_ingot"}],
+  "result": {
+    "id": "kubejs:adamantium_nugget",
+    "count":9
+    }
+  }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients":[{"item":"kubejs:brust_alloy"}],
+  "result": {
+    "id": "kubejs:brust_alloy_nugget",
+    "count":9
+    }
+  }

@@ -1,0 +1,49 @@
+{
+    "parent": "custom_useable_adv:root",
+        "display":{
+        "icon":{
+            "id":"kubejs:brust_alloy_pickaxe"
+        },
+        "title":"冲击工程师",
+        "description":"拥有全套冲击合金工具，当然，这包括锄头",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "full_stack":{
+            "trigger":"inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items":
+                    "kubejs:brust_alloy_sword",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_shovel",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_axe",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_pickaxe",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:brust_alloy_hoe",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

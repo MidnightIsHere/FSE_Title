@@ -1,0 +1,44 @@
+{
+    "parent": "custom_useable_adv:root",
+        "display":{
+        "icon":{
+            "id":"kubejs:immortal_alloy_chestplate"
+        },
+        "title":"永恒裹身",
+        "description":"永恒的力量包裹你周身",
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "criteria":{
+        "cardboard_suit":{
+            "trigger":"inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items":
+                    "kubejs:immortal_alloy_helmet",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:immortal_alloy_chestplate",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:immortal_alloy_leggings",
+                    "count":1
+                },
+                {
+                    "items":
+                    "kubejs:immortal_alloy_boots",
+                    "count":1
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+        }
+    }

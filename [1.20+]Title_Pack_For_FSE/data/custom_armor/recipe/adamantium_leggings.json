@@ -1,0 +1,35 @@
+{
+    "type":"smithing_transform",
+    "base":[{"item":"kubejs:brust_alloy_leggings"}],
+    "template":[{"item":"kubejs:adamantium_upgrade_smithing_template"}],
+    "addition":[{"item":"kubejs:adamantium_ingot"}],
+    "result": {
+      "id": "kubejs:adamantium_leggings",
+      "components": {
+        "minecraft:attribute_modifiers": [
+        {
+            "id": "minecraft:netherite_armor",
+          "type": "generic.armor",
+          "slot": "legs",
+          "operation": "add_value",
+          "amount": 7.0
+        },
+        {
+            "id": "minecraft:netherite_armor",
+          "type": "generic.armor_toughness",
+          "slot": "legs",
+          "operation": "add_value",
+          "amount": 4.0
+        },
+        {
+            "id": "minecraft:netherite_armor",
+          "type": "generic.knockback_resistance",
+          "slot": "legs",
+          "operation": "add_value",
+          "amount": 0.3
+        }
+        ],
+        "minecraft:custom_data":{"spectrum_by_package":"draconic_twinsword"}
+      }
+    }
+  }
